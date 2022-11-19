@@ -55,7 +55,6 @@ q:before, q:after {
 
 /* wrapper  */
 .wrapper   {
-    width: 1200px;
     margin: 0 auto;
     background-color: rgb(68, 68, 68);
 
@@ -69,7 +68,113 @@ q:before, q:after {
     padding: 10px;
     color: antiquewhite;
 }
+.wrapper{
+    background-color: gray;
+
+}
+.content-container{
+    width: 1300px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+/* header  */
+.header-box{
+	background-color: #020509;
+	font-size: 25px;
+	letter-spacing: 2px;
+	box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    position: relative;
+    z-index: 5;
+}
+
+.header{
+    background-color: #020509;
+	color: #FF0038;
+	font-weight: 700;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	letter-spacing: 5px;
+	font-size: 30px;
+}
+.header > a, li>a{
+	color: white;
+	text-decoration: none;
+}
+.header > button{
+	border: none;
+	background-color: #FF0038;
+	color: white;
+	padding: 15px 35px;
+	border-radius: 7px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+}
+/* list-box */
+.red-color{
+	color: #FF0038;
+}
+.first-list{
+	display: flex;
+	column-gap: 25px;
+}
+.first-list > li{
+	padding: 20px 0px;
+}
+.list-hover:hover, .list-hover:hover > a {
+	background-color: #FF0038;
+	color: #020509;
+}
+/* first drop-box */
+.second-list{
+	position: relative;
+}
+.drop-list{
+	position: absolute;
+	background-color: #020509;
+	top: 100%;
+	padding: 10px 5px 10px 0px;
+	display: none;
+	align-items: center;
+}
+.drop-list > li{
+	padding-left: 10px ;
+}
+.drop-list > li:hover{
+	background-color: #FF0038;
+	color: #020509;
+}
+.second-list:hover > .drop-list{
+	display: block;
+}
+/* second drop-box */
+.third-list{
+	position: relative;
+
+}
+.second-drop-list{
+	position: absolute;
+	right: 100%;
+	bottom: -140%;
+	background-color:  #020509;
+	width: 160px;
+	padding: 5px;
+	text-align: right;
+	display: none;
+}
+.third-list:hover > .second-drop-list{
+	display: block;
+}
+.second-drop-list > li:hover{
+	background-color: #ff0038;
+}
 /* float-block */
+.main-box-wrapper{
+    background-color: gray;
+}
 .footage-wrapper{
     text-align: center;
     font-size: 35px;
