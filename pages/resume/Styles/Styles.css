@@ -1,0 +1,289 @@
+body{
+    font-family: 'Inter Tight', sans-serif;
+    background-color: #E5E5E5;
+}
+/*  mainbox background = #E5E5E5
+     background color = #04202C dark blue
+    background color 2 = #5B7065 bright green 
+    Text colour = #C9D1C8
+ */
+
+ .mainbox{
+    display: flex;
+    flex-direction: row-reverse;    
+    
+    width: 1200px;
+    margin: 0 auto  ;
+
+ }
+ .mainboxcontent{
+    background-color: #fff;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+    padding-left: 0px;
+    padding-top: 0px;
+ }
+.aboutuser{
+    margin-left: 90px;
+    margin-top: 102px;
+
+}
+.pos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 25px;
+    
+}
+.discription{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+    margin-bottom: 40px;
+}
+.projects{
+margin-bottom: 50px;
+padding: 0;
+
+}
+.projectol{
+    padding: 0;
+    margin-left: 15px;
+}
+
+.projectli{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+
+color: #000000;   
+}
+
+.projectli{
+    margin-left: 90px;
+    padding: 0px;
+}
+.projectlink{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;   
+    color: #595959;
+
+}
+.projectlink{
+    padding: 0px;
+    margin-left: 10px;
+}
+.brakes{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.title{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    
+}
+
+.title2, .manager1, .manager2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 90px;
+    margin-bottom: 11px;
+    margin-top: 20px;
+}
+.workexp{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px; 
+}
+.freelance{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 90px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+   
+}
+
+
+.manager1{
+    margin-bottom: 20px;
+    margin-left: 0px;
+    width: 525px;
+    height: 150px;
+}
+
+.manager2{
+    margin-bottom: 45px;
+    margin-left: 0px;
+    width: 525px;
+    height: 126px;
+}
+
+
+.edu{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.job{
+    color: #FB6D3A;
+}
+
+.time{
+    color: #A8A8A8
+    ;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;  
+    margin-top: 0px;
+}
+
+
+
+
+
+.univ{
+    color: #FB6D3A
+    ;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 0px;
+}
+
+.management{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.management{
+    padding: 0;
+    margin-left: 90px;
+    margin-bottom: 12px;
+    margin-top: 0px;
+
+}
+.maint, .maintf{
+    color: #595959
+    ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.maint{
+    margin-left: 100px;
+    padding: 0;  
+      
+}
+
+
+
+.asidecontent{
+    background-color: #1E2939;
+    color: #C9D1C8;
+    width: 370px;
+    padding-top: 40px;
+
+    
+}
+.photo{
+    padding-bottom: 51px;
+    width: 370px;
+    height: 354px;
+    left: 40px;
+    top: 80px;
+
+}
+.asidetitle{
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #C9D1C8;
+}
+
+.cont{
+    color: #C9D1C8;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.link{
+    color: black;
+}
+
+.contacts{
+    margin-left: 40px;
+    padding-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.tech{
+    margin-left: 20px;
+    padding-bottom: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.soft{
+
+    margin-left: 20px;
+    padding-bottom: 366px;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.dotss{
+    color: #FB6D3A;
+}
+.liword{
+    color: #C9D1C8;
+}
