@@ -139,5 +139,17 @@ table {
 .second-drop-list > li:hover{
 	background-color: #ff0038;
 }
+/* main box */
+
+/* footer box */
+.footer {
+    background-color: #020509;
+}
+.footer-box{
+    color: aliceblue;
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 18px;
+}
 
 
