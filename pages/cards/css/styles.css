@@ -1,0 +1,177 @@
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background-image: url('../img/background.jpg');
+    background-color: rgb(202, 202, 202);
+	font-family: 'Inter Tight', sans-serif;
+	opacity: 0.97;
+	
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1300px;
+    background-color: gray;
+	border: 0px solid;
+	border-radius: 10px;
+}
+
+/* HEADER */
+.header{
+	width: 1300px;
+    padding: 20px 5px;
+	background-color: rgb(70, 70, 70);
+	color: white;
+	font-size: 0;
+	text-align: center;
+	border: 1px solid rgb(70, 70, 70);;
+	border-radius: 10px;
+}
+
+.header .logo{
+	font-size: 20px ;
+	display: inline-block;
+	padding: 5px;
+	text-transform: uppercase ;
+
+}
+.header .cards-title{
+	font-size: 25px;
+	width: 1100px;
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	text-transform: uppercase ;
+
+}
+.header .button{
+	font-size: 16px;
+	display: inline-block;
+	text-transform: uppercase ;
+	margin-left: 35px;
+}
+.header button{
+	background-color: gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	transition: opacity 0.2s, background 0.2s;
+	
+}
+.header button:hover{
+	background-color: gray;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	padding: 5px;
+	font-size: 16px;
+	opacity: 1;
+	transition: opacity 0.2s, background 0.2s;
+	background: rgb(70, 70, 70);
+	
+}
+.header button:hover{
+	background-color: rgb(70, 70, 70);
+}
+
+/* CARDS */
+/* FIRST CARD */
+.cards-box {
+	font-size: 0;
+	text-align: center;
+
+}
+.cards-box h2{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 10px;
+}
+
+.cards-box p{
+	font-size: 18px;
+	margin: 5px auto;
+}
+.cards-box ul{
+	margin-bottom: 10px;
+}
+.cards-box li {
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.cards-box img{
+	height: 360px;
+	border: 1px solid gray;
+	border-radius: 8px;
+}
+.card {
+	width: 433px;
+	height: auto;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+	opacity: 0.8;
+	transition: opacity 0.2s, background 0.2s;
+	vertical-align: top;
+
+}
+.card-wrapper{
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 15px;
+}
+.card-wrapper:hover{
+	color: rgb(179, 179, 179);;
+	box-shadow: -1px -1px 20px 20px rgba(255, 255, 255, 0.267);
+	opacity: 1;
+	transition: opacity 0.2s, background 0.2s;
+  	background: rgb(70, 70, 70);
+}
+
+
+
+
