@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +50,7 @@ table {
 
 }
 .content-box{
-    width: 1200px;
+    width: 1300px;
     margin: 0 auto;
     text-transform: uppercase;
 }
@@ -69,6 +70,10 @@ table {
 	justify-content: space-between;
 	align-items: center;
 }
+.logo{
+	letter-spacing: 5px;
+	font-size: 30px;
+}
 .header > a, li>a{
 	color: white;
 	text-decoration: none;
@@ -77,10 +82,11 @@ table {
 	border: none;
 	background-color: #FF0038;
 	color: white;
-	padding: 10px 25px;
+	padding: 15px 35px;
 	border-radius: 7px;
 	text-transform: uppercase;
 	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
 }
 /* list-box */
 .red-color{
@@ -104,9 +110,10 @@ table {
 .drop-list{
 	position: absolute;
 	background-color: #020509;
-	padding: 20px 5px 10px 0px;
+	top: 100%;
+	padding: 10px 5px 10px 0px;
 	display: none;
-
+	align-items: center;
 }
 .drop-list > li{
 	padding-left: 10px ;
@@ -126,7 +133,7 @@ table {
 .second-drop-list{
 	position: absolute;
 	right: 100%;
-	bottom: -10px;
+	bottom: -140%;
 	background-color:  #020509;
 	width: 160px;
 	padding: 5px;
@@ -140,7 +147,33 @@ table {
 	background-color: #ff0038;
 }
 /* main box */
-
+.main-page-container{
+	height: 100vh;
+	overflow-y: scroll;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 150px;
+	scroll-behavior: smooth;
+	scroll-snap-type: y mandatory;
+}
+.section{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	scroll-snap-align: start ;
+}
+.box{
+	text-align: center;
+}
+.red{
+	background-color: red;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}
 /* footer box */
 .footer {
     background-color: #020509;
