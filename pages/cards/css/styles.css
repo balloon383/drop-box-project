@@ -50,13 +50,12 @@ table {
 	border-spacing: 0;
 }
 
-.wrapper{
-    background-color: gray;
-}
+
 .content-box{
     width: 1300px;
     margin: 0 auto;
     text-transform: uppercase;
+	background-color: gray;
 }
 /* header  */
 .header-box{
@@ -159,7 +158,6 @@ table {
 	font-size: 0;
 	text-align: center;
 	position: relative;
-
 }
 .cards-box h2{
 	font-size: 20px;

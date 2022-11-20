@@ -61,21 +61,15 @@ q:before, q:after {
 }
 
 /* header */
-.header {
-    font-size: 35px;
-    text-align: center;
-    background-color: gray;
-    padding: 10px;
-    color: antiquewhite;
-}
 .wrapper{
     background-color: gray;
 
 }
 .content-container{
-    width: 1300px;
+    width: 1200px;
     margin: 0 auto;
     text-transform: uppercase;
+    background-color: rgb(85, 85, 85);
 }
 /* header  */
 .header-box{
@@ -160,7 +154,7 @@ q:before, q:after {
 	right: 100%;
 	bottom: -140%;
 	background-color:  #020509;
-	width: 160px;
+	width: 170px;
 	padding: 5px;
 	text-align: right;
 	display: none;
@@ -173,7 +167,8 @@ q:before, q:after {
 }
 /* float-block */
 .main-box-wrapper{
-    background-color: gray;
+    padding-top: 30px;
+    background-color: rgb(85, 85, 85);
 }
 .footage-wrapper{
     text-align: center;
