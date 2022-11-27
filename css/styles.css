@@ -49,6 +49,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: 'Montserrat', sans-serif;
+	position: relative;
 }
 ol, ul {
 	list-style: none;
@@ -68,7 +69,6 @@ table {
 /* wrapepr */
 .wrapper{
     background-color: yellow;
-
 }
 .content-box{
     width: 1300px;
@@ -209,6 +209,7 @@ table {
 	background-color: green;
 	flex-direction: column;
 }
+
 /* footer box */
 .footer {
     background-color: #020509;
@@ -220,6 +221,21 @@ table {
     text-align: center;
     padding: 30px 0px;
     font-size: 18px;
+}
+/* side-box */
+.side-box{
+    position: fixed;
+    width: 50px;
+    height: 200px;
+	top: 50%;
+	left: 0%;
+    background-color: #020509;
+	z-index: 10;
+	border-radius: 10px;
+	display: flex;
+}
+.side-box-svg-container{
+
 }
 
 
