@@ -225,7 +225,7 @@ table {
 /* side-box */
 .side-box{
     position: fixed;
-    width: 55px;
+    width: 50px;
     height: 210px;
 	top: 50%;
 	left: 0%;
