@@ -85,7 +85,7 @@ table {
 	left: 0;
 	right: 0;
 	top: 0;
-	z-index: 5;
+	z-index: 15;
 }
 
 .header{
@@ -119,11 +119,10 @@ table {
 }
 .first-list{
 	display: flex;
-	column-gap: 25px;
+	column-gap: 5px;
 }
 .first-list > li{
 	padding: 20px 10px;
-	
 }
 .svg-box {
 	position: relative;
@@ -135,6 +134,7 @@ table {
 	fill: white;
 	left: 0;
 	top: 0;
+	bottom: 0;
 }
 .list-hover > a{
 	padding-left: 40px;
@@ -144,7 +144,15 @@ table {
 	padding-right: 40px;
 	padding-left: 10px;
 }
-
+.last-svg{
+	position: absolute;
+	fill: white;
+	width: 35px;
+	height: 35px;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
 .list-hover:hover, .list-hover:hover > a {
 	background-color: #FF0038;
 	color: #020509;
@@ -152,30 +160,36 @@ table {
 /* first drop-box */
 .second-list{
 	position: relative;
+	z-index: 5;
 }
 .drop-list{
 	position: absolute;
 	background-color: #020509;
-	top: 100%;
+	top: -200%;
+	opacity: 0;
 	padding: 10px 5px 10px 0px;
-	display: none;
+/* 	display: none; */
 	align-items: center;
 	box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
+	left: 0;
+	transition: top .2s, opacity 3s cubic-bezier(0, 1.4, .83, .67);
+	z-index: 1;
 }
 .drop-list > li{
-	padding-left: 10px ;
+	padding-left: 25px ;
 }
 .drop-list > li:hover{
 	background-color: #FF0038;
 	color: #020509;
 }
 .second-list:hover > .drop-list{
-	display: block;
+	top: 100%;
+	opacity: 1;
+/* 	display: block; */
 }
 /* second drop-box */
 .third-list{
 	position: relative;
-
 }
 .second-drop-list{
 	position: absolute;
@@ -193,6 +207,18 @@ table {
 }
 .second-drop-list > li:hover{
 	background-color: #ff0038;
+}
+.third-list{
+	position: relative;
+}
+.third-list .header-icon{
+	width: 25px;
+	height: 25px;
+	fill: white;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
 }
 /* main box */
 .main-page-container{
@@ -268,10 +294,5 @@ table {
 	fill: red;
 	scale: 1.2;
 }
-
-.second-list .svg-box .header-icon::after{
-	content: attr();
-}
-
 
 
