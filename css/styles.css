@@ -205,6 +205,7 @@ table {
 	position: absolute;
 	right: 100%;
 	top: 0;
+	white-space: no-wrap;
 	background-color:  #020509;
 	text-align: right;
 	box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
