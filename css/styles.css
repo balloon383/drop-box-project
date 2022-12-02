@@ -304,7 +304,7 @@ table {
 	width: 40px;
 	height: 40px;
 	padding: 5px 4px;
-	transition: scale 80ms cubic-bezier(1, -0.06, .52, .78);
+	transition: scale 80ms cubic-bezier(1, -0.06, .52, .78), fill 80ms cubic-bezier(1, -0.06, .52, .78);
 }
 .icon:hover{
 	fill: red;
