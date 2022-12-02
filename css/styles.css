@@ -112,10 +112,10 @@ table {
 	text-transform: uppercase;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
-	transition: background .3s;
+	transition: background .5s;
 }
 .header > button:hover{
-	background-color: #d8002f;
+	background-color: #c0002a;
 }
 /* list-box */
 .red-color{
@@ -204,7 +204,8 @@ table {
 .second-drop-list{
 	position: absolute;
 	right: 100%;
-	bottom: -140%;
+	top: 0;
+	white-space: nowrap;
 	background-color:  #020509;
 	text-align: right;
 	box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
