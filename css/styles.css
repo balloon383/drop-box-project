@@ -204,8 +204,8 @@ table {
 .second-drop-list{
 	position: absolute;
 	right: 100%;
-	top: 0;
 	white-space: nowrap;
+	top: 0;
 	background-color:  #020509;
 	text-align: right;
 	box-shadow: 0px 4px 4px rgb(0 0 0 / 50%);
