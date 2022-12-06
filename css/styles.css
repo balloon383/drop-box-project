@@ -317,14 +317,15 @@ table {
 	position: fixed;
 	width: 280px;
 	height: 350px;
-	bottom: 0;
+	bottom: -300px;
 	left: 50%;
 	margin-left: -140px;
 	background-color: #020509;
 	border-radius: 5px;
+	transition: .5s;
 }
 .footer-menu:hover{
-	
+	bottom: 0;
 }
 .header-menu{
 	text-align: center;
