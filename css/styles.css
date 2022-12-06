@@ -361,6 +361,9 @@ table {
 	margin-top: -75px;
 	width: 150px;
 	height: 150px;
+	transition: transform .4s ease-in-out;
+}
+.selector-box:hover .selector-ul-box{
 	transform: rotate(45deg);
 }
 .selector-ul-box > li{
@@ -381,6 +384,9 @@ table {
 	margin-top: -25px;
 	margin-right: -25px;
 	fill: white;
+	transition: transform .8s ease-in-out;
+}
+.selector-box:hover .footer-svg{
 	transform: rotate(315deg);
 }
 .li-box:nth-child(1):hover {
@@ -403,7 +409,3 @@ table {
 	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);
 
 }
-
-
-
-
