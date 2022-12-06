@@ -54,4 +54,8 @@
   <symbol id="left-arrow" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
     <polygon points="352,128.4 319.7,96 160,256 160,256 160,256 319.7,416 352,383.6 224.7,256 "></polygon>
   </symbol>
+   <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 -6 524 524" id="up-symbol">
+    <title>up</title>
+    <path d="M460 321L426 355 262 192 98 355 64 321 262 125 460 321Z"></path>
+  </symbol>
 </svg>

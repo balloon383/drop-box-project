@@ -46,6 +46,7 @@ footer, header, hgroup, menu, nav, section {
     border-radius: 0px;
     border: 0px none #ffffff;
   }
+  
 body {
 	line-height: 1;
     font-family: 'Montserrat', sans-serif;
@@ -310,5 +311,98 @@ table {
 	fill: red;
 	scale: 1.2;
 }
+
+/* footer-menu */
+.footer-menu{
+	position: fixed;
+	width: 280px;
+	height: 350px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -140px;
+	background-color: #020509;
+	border-radius: 5px;
+}
+.footer-menu:hover{
+	
+}
+.header-menu{
+	text-align: center;
+	color: #020509;
+	background-color: red;
+	position: relative;
+	border: 1px solid #020509;
+	border-radius: 5px;
+}
+.header-menu h3{
+	font-weight: 700;
+	padding: 20px 0px 10px;
+	font-size: 20px;
+}
+.header-menu svg{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+}
+.selector-box{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+.selector-ul-box{
+	font-size: 0px;
+	padding: 0;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -75px;
+	margin-top: -75px;
+	width: 150px;
+	height: 150px;
+	transform: rotate(45deg);
+}
+.selector-ul-box > li{
+	border: 1px solid white;
+	width: 70px;
+	height: 70px;
+	display: inline-block;
+	position: relative;
+	transition: all .2s linear;
+}
+.footer-svg{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	margin-top: -25px;
+	margin-right: -25px;
+	fill: white;
+	transform: rotate(315deg);
+}
+.li-box:nth-child(1):hover {
+	background-color: red;
+	transform: scale(1.2, 1.2) translate(-5px, -5px);
+	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);
+}
+.li-box:nth-child(2):hover{
+	background-color: red;
+	transform: scale(1.2, 1.2) translate(5px, -5px);
+	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);}
+.li-box:nth-child(3):hover{
+	background-color: red;
+	transform: scale(1.2, 1.2) translate(-5px, 5px);
+	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);
+}
+.li-box:nth-child(4):hover{
+	background-color: red;
+	transform: scale(1.2, 1.2) translate(5px, 5px);
+	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);
+
+}
+
+
 
 
