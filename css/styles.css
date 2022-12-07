@@ -311,20 +311,20 @@ table {
 	fill: red;
 	scale: 1.2;
 }
+
 /* footer-menu */
 .footer-menu{
 	position: fixed;
 	width: 280px;
-	height: 350px;
-	bottom: -296px;
 	left: 50%;
-	margin-left: -140px;
+	bottom: 0;
+	transform: translate(-50%, calc(100% - 52px));
 	background-color: #020509;
 	border-radius: 5px;
-	transition: .5s;
+	transition: transform .5s ease-in-out;
 }
 .footer-menu:hover{
-	bottom: 0;
+	transform: translate(-50%, 0%);
 }
 .header-menu{
 	text-align: center;
@@ -344,49 +344,35 @@ table {
 	height: 30px;
 	position: absolute;
 	left: 50%;
-	margin-left: -15px;
-}
-.selector-box{
-	position: relative;
-	height: 100%;
-	width: 100%;
+	transform: translateX(-50%);
 }
 .selector-ul-box{
 	font-size: 0px;
-	padding: 0;
-	position: absolute;
-	left: 50%;
-	top: 40%;
-	margin-left: -75px;
-	margin-top: -75px;
 	width: 150px;
-	height: 150px;
 	transition: transform .4s ease-in-out;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 4px;
 }
-.selector-box:hover .selector-ul-box{
+.footer-menu:hover .selector-ul-box{
 	transform: rotate(45deg);
 }
 .selector-ul-box > li{
 	border: 1px solid white;
-	width: 70px;
-	height: 70px;
-	display: inline-block;
-	position: relative;
 	transition: all .2s linear;
 }
-
 .footer-svg{
 	width: 50px;
 	height: 50px;
-	position: absolute;
-	top: 50%;
-	right: 50%;
-	margin-top: -25px;
-	margin-right: -25px;
+	display: block;
 	fill: white;
 	transition: transform .8s ease-in-out;
+	padding: 10px;
 }
-.selector-box:hover .footer-svg{
+.footer-menu:hover .footer-svg{
 	transform: rotate(315deg);
 }
 .li-box:nth-child(1):hover {
@@ -407,5 +393,4 @@ table {
 	background-color: red;
 	transform: scale(1.2, 1.2) translate(5px, 5px);
 	box-shadow: -1px -4px 87px 5px rgba(255, 25, 25, 0.89);
-
 }
