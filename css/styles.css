@@ -321,7 +321,25 @@ table {
 	transform: translate(-50%, calc(100% - 52px));
 	background-color: #020509;
 	border-radius: 5px;
+	animation: jumping 2s ease-in-out infinite;
 	transition: transform .5s ease-in-out;
+}
+@keyframes jumping {
+	100%{
+		transform: translate(-50%, calc(85%));
+	}
+	60%{
+		transform: translate(-50%, calc(83%));
+	}
+	40%{
+		transform: translate(-50%, calc(85%));
+	}
+	20%{
+		transform: translate(-50%, calc(83%));
+	}
+	0%{
+		transform: translate(-50%, calc(85%));
+	}
 }
 .footer-menu:hover{
 	transform: translate(-50%, 0%);
