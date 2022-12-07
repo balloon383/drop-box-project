@@ -343,6 +343,7 @@ table {
 }
 .footer-menu:hover{
 	transform: translate(-50%, 0%);
+	animation: none;
 }
 .header-menu{
 	text-align: center;
