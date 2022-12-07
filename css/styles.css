@@ -345,6 +345,10 @@ table {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+	transition: transform .3s linear;
+}
+.footer-menu:hover .hover-me-svg{
+	transform: rotate(180deg) translateX(50%);
 }
 .selector-ul-box{
 	font-size: 0px;
