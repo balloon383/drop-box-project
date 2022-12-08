@@ -272,7 +272,13 @@ table {
 	background-color: green;
 	flex-direction: column;
 }
-
+.animated-text{
+	width: 700px;
+	height: 700px;
+	stroke: #020509;
+	stroke-width: 2.5;
+	fill: ;
+}
 /* footer box */
 .footer {
     background-color: #020509;
@@ -321,29 +327,13 @@ table {
 	transform: translate(-50%, calc(100% - 52px));
 	background-color: #020509;
 	border-radius: 5px;
-	animation: jumping 2s ease-in-out infinite;
 	transition: transform .5s ease-in-out;
-}
-@keyframes jumping {
-	100%{
-		transform: translate(-50%, calc(85%));
-	}
-	60%{
-		transform: translate(-50%, calc(83%));
-	}
-	40%{
-		transform: translate(-50%, calc(85%));
-	}
-	20%{
-		transform: translate(-50%, calc(83%));
-	}
-	0%{
-		transform: translate(-50%, calc(85%));
-	}
 }
 .footer-menu:hover{
 	transform: translate(-50%, 0%);
-	animation: none;
+}
+.footer-menu:hover .header-menu{
+	animation-play-state: paused;
 }
 .header-menu{
 	text-align: center;
@@ -352,6 +342,28 @@ table {
 	position: relative;
 	border: 1px solid #020509;
 	border-radius: 5px;
+	animation: jumping 2s ease-in-out infinite;
+}
+@keyframes jumping {
+	0% {
+		transform: translate(0, -6px);
+	}
+
+	20% {
+		transform: translate(0, 0);
+	}
+
+	40% {
+		transform: translate(0, -4px);
+	}
+
+	60% {
+		transform: translate(0, 0);
+	}
+
+	100% {
+		transform: translate(0, -6px);
+	}
 }
 .header-menu h3{
 	font-weight: 700;
