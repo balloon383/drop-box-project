@@ -272,13 +272,6 @@ table {
 	background-color: green;
 	flex-direction: column;
 }
-.animated-text{
-	width: 700px;
-	height: 700px;
-	stroke: #020509;
-	stroke-width: 2.5;
-	fill: ;
-}
 /* footer box */
 .footer {
     background-color: #020509;
